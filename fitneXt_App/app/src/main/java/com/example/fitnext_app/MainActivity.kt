@@ -14,10 +14,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //button for get pump
-        val button = findViewById<Button>(R.id.button)
+        val button = findViewById<Button>(R.id.homebutton)
         button.setOnClickListener {
-            val intent = Intent(this, MainActivity2::class.java)
-            startActivity(intent)
+            //call page 2
+            val page2 = Intent(this, MainActivity2::class.java)
+            startActivity(page2)
         }
     }
 }

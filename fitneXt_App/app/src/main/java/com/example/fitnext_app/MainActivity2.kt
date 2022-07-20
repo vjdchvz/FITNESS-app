@@ -14,8 +14,9 @@ class MainActivity2 : AppCompatActivity() {
         //button to sign up
         val button2 = findViewById<Button>(R.id.button2)
         button2.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
+            //call page 3
+            val page3 = Intent(this, LoginActivity::class.java)
+            startActivity(page3)
         }
     }
 }

@@ -14,6 +14,9 @@
         android:theme="@style/Theme.FitneXt_App"
         tools:targetApi="31">
         <activity
+            android:name=".HOME"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity2"
             android:exported="false" />
         <activity
