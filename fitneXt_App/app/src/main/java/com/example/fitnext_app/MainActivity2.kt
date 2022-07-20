@@ -6,17 +6,15 @@ import android.os.Bundle
 import android.widget.Button
 
 
-class MainActivity : AppCompatActivity() {
-
-
+class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main2)
 
-        //button for get pump
-        val button = findViewById<Button>(R.id.button)
-        button.setOnClickListener {
-            val intent = Intent(this, MainActivity2::class.java)
+        //button to sign up
+        val button2 = findViewById<Button>(R.id.button2)
+        button2.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
     }
