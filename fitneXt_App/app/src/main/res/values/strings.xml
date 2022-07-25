@@ -32,4 +32,22 @@
     <string name="title_activity_login2">LoginActivity2</string>
     <string name="you_are_all_set_now_let_s_reach_your_goals_together_with_us">You are all set now, let’s reach your goals together with us</string>
     <string name="go_to_home_button">go to home</string>
+    <string name="housepic_img">housepic</string>
+    <string name="x_x">X</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="noedgebg">noedgebg</string>
+    <string name="start">Start</string>
+    <string name="workout_now">Workout Now!</string>
+    <string name="sign_in_txt">SIGN IN</string>
+    <string name="email_txt">Email</string>
+    <string name="password_text">Password</string>
+    <string name="login_text">Login</string>
+    <string name="sign_up_txt">Sign Up</string>
+    <string name="re_type_password">Re-Type Password</string>
+    <string name="welcome_sign_up_to_continue">Welcome,Sign Up to Continue</string>
+    <string name="already_registered_login">Already Registered?Login</string>
+    <string name="not_registered_sign_up">Not Registered? Sign Up</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_the_email_you_forgot_the_password">Enter the email you forgot the Password</string>
+    <string name="submit">Submit</string>
 </resources>

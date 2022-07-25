@@ -2,21 +2,39 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcomehome"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FDEEEE"
     tools:context=".LoginActivity2">
 
     <TextView
+        android:id="@+id/greet"
+        android:layout_width="195dp"
+        android:layout_height="67dp"
+        android:background="#FDEEEE"
+        android:fontFamily="@font/armata"
+        android:text="@string/welcome_text"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361" />
+
+    <TextView
         android:id="@+id/welcome"
-        android:layout_width="159dp"
-        android:layout_height="42dp"
+        android:layout_width="195dp"
+        android:layout_height="67dp"
         android:background="#FDEEEE"
         android:fontFamily="@font/armata"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,9 +45,9 @@
         android:id="@+id/textView12"
         android:layout_width="284dp"
         android:layout_height="65dp"
-        android:textColor="@color/black"
         android:text="@string/you_are_all_set_now_let_s_reach_your_goals_together_with_us"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,4 +73,18 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="172dp"
+        android:layout_height="130dp"
+        android:contentDescription="@string/housepic_img"
+        app:layout_constraintBottom_toTopOf="@+id/welcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714"
+        app:srcCompat="@drawable/homepic" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

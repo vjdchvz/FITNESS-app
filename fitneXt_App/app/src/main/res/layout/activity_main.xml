@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
         android:foregroundTint="#FFFEFE"
-        android:text="X"
+        android:text="@string/x_x"
         android:textColor="#930505"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
