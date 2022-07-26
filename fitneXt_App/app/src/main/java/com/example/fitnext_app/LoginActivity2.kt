@@ -12,23 +12,11 @@ class LoginActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login2)
 
-
-            //receive  input
-            val inputValue = intent.getStringExtra("email")
-        //override the data received
-
-
-            //display  input for welcome
-            findViewById<TextView>(R.id.welcome).apply {
-                text = inputValue
-            }
-
                 //GO HOME BUTTON
                 val toHomeButton = findViewById<Button>(R.id.homebutton)
                 toHomeButton.setOnClickListener {
                     //call page 6
-                    val intent = Intent(this@LoginActivity2,HOME::class.java)
-                    intent.putExtra("email",inputValue)
+                    val intent = Intent(this,HOME::class.java)
                     startActivity(intent)
 
 

@@ -17,6 +17,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -31,10 +32,13 @@ class LoginActivity : AppCompatActivity() {
             val intent = Intent(this, ForgotPasswordActivity::class.java)
             startActivity(intent)
         }
+
+
 //login conditions
         binding.button3.setOnClickListener {
             val email = binding.l1.text.toString()
             val pass = binding.l2.text.toString()
+
 
             if (email.isNotEmpty() && pass.isNotEmpty()) {
 
@@ -43,29 +47,45 @@ class LoginActivity : AppCompatActivity() {
                         val intent = Intent(this, LoginActivity2::class.java)
                         startActivity(intent)
                     } else {
-                        Toast.makeText(this, "Password Incorrect !! ", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(
+                            this,
+                            "Email or Password is Incorrect !! ",
+                            Toast.LENGTH_SHORT
+                        ).show()
 
                     }
                 }
             } else {
-                Toast.makeText(this, "Empty Fields Are not Allowed !!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Empty Fields Are not Allowed !!", Toast.LENGTH_SHORT)
+                    .show()
 
             }
         }
     }
 
-}
-/*
-        override fun onStart() {
-            super.onStart()
 
-            if (firebaseAuth.currentUser != null) {
-                val intent = Intent(this, HOME::class.java)
-                startActivity (intent)
-            }
+// stay logged in after logging in
+    override fun onStart() {
+        super.onStart()
+
+        firebaseAuth = FirebaseAuth.getInstance()
+
+        if (firebaseAuth.currentUser != null) {
+
+            val intent = Intent(this, HOME ::class.java)
+            startActivity(intent)
+
+            Toast.makeText(this, "you are currently logged in", Toast.LENGTH_SHORT)
+                .show()
+
+
         }
     }
-*/
+
+    }
+
+
+
 
 
 
