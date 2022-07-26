@@ -14,22 +14,20 @@
         android:theme="@style/Theme.FitneXt_App"
         tools:targetApi="31">
         <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
             android:name=".HOME"
             android:exported="false" />
         <activity
             android:name=".LoginActivity2"
             android:exported="false" />
         <activity
-            android:name=".ui.login.LoginActivity2"
-            android:exported="false"
-            android:label="@string/title_activity_login2" />
-        <activity
             android:name=".LoginActivity"
             android:exported="false" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:exported="false"
-            android:label="@string/title_activity_login" />
         <activity
             android:name=".MainActivity2"
             android:exported="false" />

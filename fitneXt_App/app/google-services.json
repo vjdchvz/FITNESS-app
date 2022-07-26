@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "340140795764",
+    "project_id": "fitnext-app",
+    "storage_bucket": "fitnext-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340140795764:android:362b76e282b64d1e49ae21",
+        "android_client_info": {
+          "package_name": "com.example.fitnext_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340140795764-2kgdplf5iorvp6ub1hdve8j67pg27t9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVzlP6b7_DBa_qgKfq5_mt6BnKFqBbTac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340140795764-2kgdplf5iorvp6ub1hdve8j67pg27t9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
