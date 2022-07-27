@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="#FDEEEE">
+    android:background="@drawable/wall">
 
 
     <TextView
@@ -83,8 +83,7 @@
         android:layout_width="172dp"
         android:layout_height="40dp"
         android:layout_marginBottom="236dp"
-        android:background="#FDA2A2"
-        android:backgroundTint="#FDA2A2"
+        android:background="#a8618d"
         android:text="@string/login_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -100,6 +99,8 @@
         android:text="@string/not_registered_sign_up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -111,6 +112,8 @@
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.815"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PasswordLayout"
         app:layout_constraintVertical_bias="0.15" />

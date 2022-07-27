@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    tools:context=".ExerciseActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="666dp"
+        android:background="@drawable/appbg"
+        android:gravity="center"
+        android:text="@string/choose_your_target"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="651dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ham"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/hamstrings"
+                android:text="@string/hamstrings"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/cal"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/calves"
+                android:text="@string/calves"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/che"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/chest"
+                android:text="@string/chest"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/back"
+                android:text="@string/back"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/shou"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/shoulders"
+                android:text="@string/shoulders"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/tri"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/triceps"
+                android:text="@string/triceps"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/bic"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/biceps"
+                android:text="@string/biceps"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/trap"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/trapezius"
+                android:text="@string/trapezius"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/fore"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/forearms"
+                android:text="@string/forearms"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/abs"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/abs"
+                android:text="@string/abs"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

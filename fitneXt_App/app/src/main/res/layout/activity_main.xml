@@ -5,8 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/appbg">
+    android:background="@color/black">
 
+    <VideoView
+        android:id="@+id/sheesh"
+        android:layout_width="match_parent"
+        android:layout_height="730dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -14,8 +23,9 @@
         android:layout_marginStart="88dp"
         android:fontFamily="sans-serif-medium"
         android:text="@string/fitne"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:textSize="48sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView"
         app:layout_constraintHorizontal_bias="1.0"
@@ -28,7 +38,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/make_fitness_a_habit"
-        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
@@ -43,7 +54,7 @@
         android:fontFamily="sans-serif-medium"
         android:foregroundTint="#FFFEFE"
         android:text="@string/x_x"
-        android:textColor="#930505"
+        android:textColor="#EE4B2B"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,7 +70,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
         android:text="@string/t"
-        android:textColor="#070707"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,5 +79,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.445" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

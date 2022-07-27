@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="#FDEEEE">
+    android:background="@drawable/wall">
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -13,17 +13,19 @@
         android:layout_width="125dp"
         android:layout_height="47dp"
         android:layout_marginBottom="160dp"
-        android:background="#FDA2A2"
-        android:backgroundTint="#FDA2A2"
+        android:background="#a8618d"
         android:text="@string/sign_up_txt"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="312dp"
-        android:layout_height="50dp"
+        android:layout_width="316dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="24dp"
         android:autofillHints=""
         android:background="@drawable/appbg"
@@ -40,14 +42,15 @@
             android:id="@+id/u1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:drawableStart="@drawable/ic_baseline_perm_identity_24" />
+            android:drawableStart="@drawable/ic_baseline_perm_identity_24"
+            tools:ignore="TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editTextTextPassword"
-        android:layout_width="312dp"
-        android:layout_height="50dp"
+        android:layout_width="316dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="24dp"
         android:autofillHints=""
         android:background="@drawable/appbg"
@@ -67,14 +70,15 @@
             android:layout_height="match_parent"
             android:drawableStart="@drawable/ic_baseline_info_24"
             android:ems="15"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            tools:ignore="TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="312dp"
-        android:layout_height="50dp"
+        android:layout_width="316dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="40dp"
         android:autofillHints=""
         android:background="@drawable/appbg"
@@ -94,22 +98,25 @@
             android:layout_height="match_parent"
             android:drawableStart="@drawable/ic_baseline_info_24"
             android:ems="15"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            tools:ignore="TextContrastCheck,TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="399dp"
-        android:layout_height="175dp"
-        android:layout_marginBottom="68dp"
+        android:layout_width="382dp"
+        android:layout_height="172dp"
+        android:layout_marginBottom="28dp"
         android:fontFamily="@font/armata"
         android:gravity="center"
-        android:text="@string/welcome_sign_up_to_continue"
+        android:text="Sign up to Continue"
         android:textColor="#E30404"
         android:textSize="34sp"
         android:textStyle="bold"
         android:typeface="normal"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -117,6 +124,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="48dp"
+        android:textColor="@color/white"
         android:text="@string/already_registered_login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
