@@ -3,7 +3,8 @@ package com.example.fitnext_app
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import android.os.Handler
+import android.os.Looper
 
 
 class MainActivity : AppCompatActivity() {
@@ -13,12 +14,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //button for get pump
-        val button = findViewById<Button>(R.id.homebutton)
-        button.setOnClickListener {
-            //call page 2
-            val page2 = Intent(this, MainActivity2::class.java)
-            startActivity(page2)
+        Handler(Looper.getMainLooper()).postDelayed({
+            val intent = Intent(this, MainActivity2::class.java)
+            startActivity(intent)
+            // to get rid of this when u push the back button
+            finish()
         }
+
+            ,2000 )
+
     }
+
 }
+
