@@ -4,23 +4,29 @@ package com.example.fitnext_app
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.Toast
-import com.google.firebase.auth.FirebaseAuth
+import kotlinx.android.synthetic.main.activity_home.*
 
 
 class HOME : AppCompatActivity() {
 
-    private lateinit var logout: Button
-    private lateinit var firebaseAuth: FirebaseAuth
     private var backPressedTime = 0L
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-   //don't forget the getInstance()
-        firebaseAuth = FirebaseAuth.getInstance()
+
+
+
+        //setting button
+        val setting = findViewById<ImageView>(R.id.imageView2)
+        setting.setOnClickListener {
+            //call setting
+            val intent = Intent(this, Setting::class.java)
+            startActivity(intent)
+        }
 
 
 //button from exercise xml
@@ -31,28 +37,9 @@ class HOME : AppCompatActivity() {
             startActivity(intent)
         }
 
-        //logout
-        logout = findViewById(R.id.logout)
-        logout.setOnClickListener {
-            firebaseAuth.signOut()
-
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
-            finish()
-
-            Toast.makeText(this, "Logout Successfully", Toast.LENGTH_SHORT)
-                .show()
-        }
-
-
-        //exit button
-        val exitButton = findViewById<View>(R.id.exit_btn) as Button
-        exitButton.setOnClickListener {
-            finishAffinity()
-
-            }
-
     }
+
+
     // for back press button
     override fun onBackPressed() {
         if (backPressedTime + 2000 > System.currentTimeMillis()){
@@ -65,5 +52,6 @@ class HOME : AppCompatActivity() {
         backPressedTime = System.currentTimeMillis()
 }
 }
+
 
 

@@ -66,4 +66,25 @@
     <string name="forearms">Forearms</string>
     <string name="trapezius">Trapezius</string>
     <string name="abs">Abs</string>
+    <string name="logoutandexit">logoutandexit</string>
+    <string name="chose_target">CHOSE TARGET</string>
+    <string name="track_your_goals">TRACK YOUR GOAL</string>
+    <string name="get_burnt">GET BURN</string>
+    <string name="sleep_qualiti">SLEEP QUALITY</string>
+    <string name="sign_up_to_continue">Sign up to Continue</string>
+    <string name="sign_upS">SIGN UP</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="beginner">Beginner</string>
+    <string name="advance">Advance</string>
+    <string name="select_difficulty">SELECT DIFFICULTY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="test">test</string>
+    <string name="test23232">test</string>
+    <string name="fitnext">FitneXt</string>
+    <string name="logo">logo</string>
+    <string name="Intermediate">Intermediate</string>
+    <string name="Advance">Advance</string>
+    <string name="select_difficulty1">SELECT DIFFICULTY</string>
+    <string name="beginner1">Beginner</string>
 </resources>

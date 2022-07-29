@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:background="@drawable/wall"
+    android:background="@drawable/appbg2"
     tools:context=".ExerciseActivity">
 
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="59dp"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="2dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="6dp"
-        android:layout_marginEnd="-2dp"
-        android:layout_marginBottom="666dp"
-        android:background="@drawable/appbg"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="659dp"
+        android:background="@drawable/appbg2"
         android:gravity="center"
-        android:text="@string/choose_your_target"
+        android:text="@string/chose_target"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="651dp"
         android:layout_alignParentBottom="true"
@@ -60,7 +62,7 @@
             <Button
                 android:id="@+id/che"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="195dp"
                 android:layout_marginBottom="15dp"
                 android:background="@drawable/chest"
                 android:text="@string/chest"
@@ -140,6 +142,19 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <ImageView
+        android:id="@+id/arrow2"
+        android:layout_width="51dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_black_24" />
 
 
 </RelativeLayout>
