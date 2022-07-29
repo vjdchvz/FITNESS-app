@@ -53,4 +53,17 @@
     <string name="forgot_password">Forgot Password?</string>
     <string name="exit">Exit</string>
     <string name="splashimage">splashimage</string>
+    <string name="log_out">log out</string>
+    <string name="shoulder">SHOULDER</string>
+    <string name="choose_your_target">CHOOSE YOUR TARGET</string>
+    <string name="calves">Calves</string>
+    <string name="chest">Chest</string>
+    <string name="hamstrings">Hamstrings</string>
+    <string name="back">Back</string>
+    <string name="shoulders">Shoulders</string>
+    <string name="triceps">Triceps</string>
+    <string name="biceps">Biceps</string>
+    <string name="forearms">Forearms</string>
+    <string name="trapezius">Trapezius</string>
+    <string name="abs">Abs</string>
 </resources>

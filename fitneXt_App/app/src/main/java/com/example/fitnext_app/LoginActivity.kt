@@ -12,6 +12,7 @@ class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityLoginBinding
     private lateinit var firebaseAuth: FirebaseAuth
+    private var backPressedTime = 0L
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -62,6 +63,17 @@ class LoginActivity : AppCompatActivity() {
             }
         }
     }
+    // for back press button
+    override fun onBackPressed() {
+        if (backPressedTime + 2000 > System.currentTimeMillis()){
+            super.onBackPressed()
+            finishAffinity()
+        }else{
+            Toast.makeText(applicationContext,"Press Back Again to Exit App",Toast.LENGTH_SHORT)
+                .show()
+        }
+        backPressedTime = System.currentTimeMillis()
+    }
 
 
 // stay logged in after logging in
@@ -75,7 +87,7 @@ class LoginActivity : AppCompatActivity() {
             val intent = Intent(this, HOME ::class.java)
             startActivity(intent)
 
-            Toast.makeText(this, "you are currently logged in", Toast.LENGTH_SHORT)
+            Toast.makeText(this, "YOU CAN DO THIS!!", Toast.LENGTH_SHORT)
                 .show()
 
 

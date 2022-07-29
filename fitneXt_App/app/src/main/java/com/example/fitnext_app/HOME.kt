@@ -23,6 +23,14 @@ class HOME : AppCompatActivity() {
         firebaseAuth = FirebaseAuth.getInstance()
 
 
+//button from exercise xml
+        val exercise = findViewById<Button>(R.id.exercise)
+        exercise.setOnClickListener {
+            //call exercise activity
+            val intent = Intent(this, ExerciseActivity::class.java)
+            startActivity(intent)
+        }
+
         //logout
         logout = findViewById(R.id.logout)
         logout.setOnClickListener {
@@ -30,6 +38,7 @@ class HOME : AppCompatActivity() {
 
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
+            finish()
 
             Toast.makeText(this, "Logout Successfully", Toast.LENGTH_SHORT)
                 .show()
@@ -56,4 +65,5 @@ class HOME : AppCompatActivity() {
         backPressedTime = System.currentTimeMillis()
 }
 }
+
 
