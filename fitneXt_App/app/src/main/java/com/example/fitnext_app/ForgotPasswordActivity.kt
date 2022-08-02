@@ -1,6 +1,8 @@
 package com.example.fitnext_app
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.Toast
 import com.example.fitnext_app.databinding.ActivityForgotPasswordBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -19,6 +21,14 @@ class ForgotPasswordActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         firebaseAuth = FirebaseAuth.getInstance()
+
+        //back to login button
+        val setting = findViewById<ImageView>(R.id.arrow3)
+        setting.setOnClickListener {
+            //call login
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
 
 
         binding.submit.setOnClickListener {
