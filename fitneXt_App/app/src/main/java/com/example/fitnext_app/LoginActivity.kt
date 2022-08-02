@@ -74,27 +74,10 @@ class LoginActivity : AppCompatActivity() {
         }
         backPressedTime = System.currentTimeMillis()
     }
-
-
-// stay logged in after logging in
-    override fun onStart() {
-        super.onStart()
-
-        firebaseAuth = FirebaseAuth.getInstance()
-
-        if (firebaseAuth.currentUser != null) {
-
-            val intent = Intent(this, HOME ::class.java)
-            startActivity(intent)
-
-            Toast.makeText(this, "YOU CAN DO THIS!!", Toast.LENGTH_SHORT)
-                .show()
-
-
-        }
     }
 
-    }
+
+
 
 
 

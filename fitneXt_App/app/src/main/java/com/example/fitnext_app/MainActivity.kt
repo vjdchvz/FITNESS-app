@@ -16,8 +16,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        var videoView: VideoView? = null
-
         super.onCreate(savedInstanceState)
         requestWindowFeature(1)
         window.setFlags(
@@ -27,11 +25,11 @@ class MainActivity : AppCompatActivity() {
         window.statusBarColor = Color.TRANSPARENT
         setContentView(R.layout.activity_main)
 
-        videoView = findViewById(R.id.sheesh)
+        val videoView: VideoView = findViewById(R.id.sheesh)
 
         val path = "android.resource://" + packageName + "/" + R.raw.splash
         val uri = Uri.parse(path)
-        videoView!!.setVideoURI(uri)
+        videoView.setVideoURI(uri)
         videoView.start()
 
         videoView.setOnCompletionListener {

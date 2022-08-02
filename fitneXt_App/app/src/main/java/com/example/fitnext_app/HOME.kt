@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_home.*
+
 
 
 class HOME : AppCompatActivity() {

@@ -8,10 +8,9 @@ import androidx.fragment.app.Fragment
 import com.example.fitnext_app.ExerciseActivity
 import com.example.fitnext_app.R
 import com.example.fitnext_app.bodyparts.absdifficulty.absAdvance
-import com.example.fitnext_app.bodyparts.absdifficulty.absBegginer
+import com.example.fitnext_app.bodyparts.absdifficulty.absBeginner
 import com.example.fitnext_app.bodyparts.absdifficulty.absIntermediate
 import com.example.fitnext_app.databinding.ActivityAbsExBinding
-import kotlinx.android.synthetic.main.activity_abs_ex.*
 
 class AbsEx : AppCompatActivity() {
     private lateinit var binding: ActivityAbsExBinding
@@ -25,7 +24,7 @@ class AbsEx : AppCompatActivity() {
 
         binding.beginner.setOnClickListener {
 
-            replaceFragment(absBegginer())
+            replaceFragment(absBeginner())
 
         }
 
@@ -59,10 +58,9 @@ class AbsEx : AppCompatActivity() {
         fragmentTransaction.commit()
 
 
-
-
 }
 }
+
 
 
 

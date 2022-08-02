@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbg"
+    tools:context=".bodyparts.tricepsdifficulty.tricepsAdvance">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrolltricepsAdvance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EE4B2B">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="15dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/advance1"
+                    android:textColor="@color/black"
+                    android:textSize="35sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="15dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/advance2"
+                    android:textColor="@color/black"
+                    android:textSize="35sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="15dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/advance3"
+                    android:textColor="@color/black"
+                    android:textSize="35sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="15dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/advance4"
+                    android:textColor="@color/black"
+                    android:textSize="35sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="15dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/advance5"
+                    android:textColor="@color/black"
+                    android:textSize="35sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

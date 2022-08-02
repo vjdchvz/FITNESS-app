@@ -10,17 +10,17 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="394dp"
-        android:layout_height="174dp"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
         android:contentDescription="@string/noedgebg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.972"
-        app:srcCompat="@drawable/noedgebackground"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/appbg2"
         tools:ignore="ImageContrastCheck" />
-
 
     <TextView
         android:id="@+id/textView11"
@@ -42,7 +42,7 @@
         android:layout_width="114dp"
         android:layout_height="46dp"
         android:background="@drawable/round_button"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/buttoncolor"
         android:text="@string/start"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"

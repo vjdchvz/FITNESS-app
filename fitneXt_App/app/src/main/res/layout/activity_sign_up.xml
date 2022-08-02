@@ -14,6 +14,7 @@
         android:layout_height="47dp"
         android:layout_marginBottom="160dp"
         android:background="@color/black"
+        android:backgroundTint="@color/buttoncolor"
         android:text="@string/sign_up_txt"
         android:textColor="@color/white"
         android:textStyle="bold"
