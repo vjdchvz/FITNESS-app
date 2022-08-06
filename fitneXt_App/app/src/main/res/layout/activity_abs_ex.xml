@@ -43,11 +43,11 @@
 
     <RadioGroup
         android:id="@+id/select"
-        android:layout_width="411dp"
-        android:layout_height="41dp"
-        android:background="@drawable/wall3"
-        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
         android:layout_marginTop="88dp"
+        android:background="@color/black"
+        android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,21 +56,19 @@
 
         <RadioButton
             android:id="@+id/beginner"
-            android:layout_width="121dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="1dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
             android:background="@color/black"
             android:buttonTint="#EE4B2B"
             android:text="@string/beginner"
-            android:textAlignment="center"
             android:textColor="@color/white"
             android:textStyle="bold"
             tools:ignore="TouchTargetSizeCheck" />
 
         <RadioButton
             android:id="@+id/intermediate"
-            android:layout_width="121dp"
-            android:layout_height="40dp"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
             android:background="@color/black"
             android:buttonTint="#EE4B2B"
             android:text="@string/intermediate"
@@ -80,13 +78,12 @@
 
         <RadioButton
             android:id="@+id/advance"
-            android:layout_width="121dp"
-            android:layout_height="40dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
             android:layout_marginEnd="1dp"
             android:background="@color/black"
             android:buttonTint="#EE4B2B"
             android:text="@string/advance"
-            android:textAlignment="center"
             android:textColor="@color/white"
             android:textStyle="bold"
             tools:ignore="TouchTargetSizeCheck" />
@@ -94,7 +91,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
-        android:name="com.example.fitnext_app.bodyparts.absdifficulty.absBegginer"
+        android:name="com.example.fitnext_app.bodyparts.absdifficulty.absBeginner"
         android:layout_width="match_parent"
         android:layout_height="601dp"
         android:layout_below="@+id/select"
@@ -105,7 +102,7 @@
         android:layout_marginTop="1dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
-        tools:layout="@layout/fragment_abs_begginer" />
+        tools:layout="@layout/fragment_abs_beginner" />
 
     <TextView
         android:id="@+id/fitneXt"

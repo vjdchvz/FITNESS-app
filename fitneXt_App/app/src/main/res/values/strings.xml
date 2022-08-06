@@ -87,4 +87,25 @@
     <string name="Advance">Advance</string>
     <string name="select_difficulty1">SELECT DIFFICULTY</string>
     <string name="beginner1">Beginner</string>
+    <string name="ex4">ex4</string>
+    <string name="exercise1">Exercise1</string>
+    <string name="exercise2">Exercise2</string>
+    <string name="exercise3">Exercise3</string>
+    <string name="exercise4">Exercise4</string>
+    <string name="exercise5">Exercise5</string>
+    <string name="beginner11">beginner1</string>
+    <string name="beginner2">beginner2</string>
+    <string name="beginner3">beginner3</string>
+    <string name="beginner4">beginner4</string>
+    <string name="beginner5">beginner5</string>
+    <string name="intermediate1">Intermediate1</string>
+    <string name="intermediate2">Intermediate2</string>
+    <string name="intermediate3">Intermediate3</string>
+    <string name="intermediate4">Intermediate4</string>
+    <string name="intermediate5">Intermediate5</string>
+    <string name="advance1">Advance1</string>
+    <string name="advance2">Advance2</string>
+    <string name="advance3">Advance3</string>
+    <string name="advance4">Advance4</string>
+    <string name="advance5">Advance5</string>
 </resources>
