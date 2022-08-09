@@ -23,6 +23,12 @@ class CalvesEx : AppCompatActivity() {
         binding =ActivityCalvesExBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
+                calvesBeginner()
+            ).commit()
+        }
+
         binding.beginner.setOnClickListener {
 
             replaceFragment(calvesBeginner())

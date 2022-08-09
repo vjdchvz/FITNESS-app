@@ -43,15 +43,6 @@
                 android:textColor="@color/black"
                 android:textSize="35sp" />
             <Button
-                android:id="@+id/trap"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_margin="15dp"
-                android:background="@drawable/trapezius"
-                android:text="@string/trapezius"
-                android:textColor="@color/black"
-                android:textSize="35sp" />
-            <Button
                 android:id="@+id/che"
                 android:layout_width="match_parent"
                 android:layout_height="195dp"
@@ -60,6 +51,7 @@
                 android:text="@string/chest"
                 android:textColor="@color/black"
                 android:textSize="35sp" />
+
             <Button
                 android:id="@+id/back"
                 android:layout_width="match_parent"
@@ -68,7 +60,8 @@
                 android:background="@drawable/back"
                 android:text="@string/back"
                 android:textColor="@color/black"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                tools:ignore="DuplicateSpeakableTextCheck" />
             <Button
                 android:id="@+id/tri"
                 android:layout_width="match_parent"

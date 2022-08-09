@@ -7,7 +7,6 @@ import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import com.example.fitnext_app.ExerciseActivity
 import com.example.fitnext_app.R
-
 import com.example.fitnext_app.bodyparts.chestdifficulty.chestAdvance
 import com.example.fitnext_app.bodyparts.chestdifficulty.chestBeginner
 import com.example.fitnext_app.bodyparts.chestdifficulty.chestIntermediate
@@ -24,6 +23,12 @@ class ChestEx : AppCompatActivity() {
 
         binding = ActivityChestExBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
+                chestBeginner()
+            ).commit()
+        }
 
         binding.beginner.setOnClickListener {
 

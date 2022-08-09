@@ -1,12 +1,12 @@
 package com.example.fitnext_app
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.Gravity
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.fitnext_app.databinding.ActivityMain2Binding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -32,11 +32,11 @@ class MainActivity2 : AppCompatActivity() {
 
             val intent = Intent(this, HOME::class.java)
             startActivity(intent)
+                //toast position
+            val toast = Toast.makeText(this, "WELCOME BACK!", Toast.LENGTH_LONG)
+            toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0)
+            toast.show()
 
-            val toastposition = Toast.makeText(this, "Welcome Back!!", Toast.LENGTH_SHORT)
-            //TOAST POSITION
-            toastposition.setGravity(Gravity.CENTER,0,0)
-                toastposition.show()
         } else {
             Handler(Looper.getMainLooper()).postDelayed({
                 val intent2 = Intent(this, LoginActivity::class.java)

@@ -25,7 +25,7 @@
                     android:layout_margin="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/intermediate1"
+                    android:text="@string/skull_crusher"
                     android:textColor="@color/black"
                     android:textSize="35sp" />
                 <TextView
@@ -34,7 +34,7 @@
                     android:layout_margin="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/intermediate2"
+                    android:text="@string/triceps_pullover"
                     android:textColor="@color/black"
                     android:textSize="35sp" />
                 <TextView
@@ -43,7 +43,7 @@
                     android:layout_margin="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/intermediate3"
+                    android:text="@string/dive_bombers"
                     android:textColor="@color/black"
                     android:textSize="35sp" />
                 <TextView
@@ -52,7 +52,7 @@
                     android:layout_margin="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/intermediate4"
+                    android:text="@string/triceps_pressdown"
                     android:textColor="@color/black"
                     android:textSize="35sp" />
                 <TextView
@@ -61,7 +61,7 @@
                     android:layout_margin="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/intermediate5"
+                    android:text="@string/isolated_triceps_extension"
                     android:textColor="@color/black"
                     android:textSize="35sp" />
 

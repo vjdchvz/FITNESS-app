@@ -24,7 +24,7 @@
                     android:layout_margin="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/beginner11"
+                    android:text="@string/seated_overhead_dumbbell_extension"
                     android:textColor="@color/black"
                     android:textSize="35sp" />
                 <TextView
@@ -33,7 +33,7 @@
                     android:layout_margin="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/beginner2"
+                    android:text="@string/standing_triceps_kickbacks"
                     android:textColor="@color/black"
                     android:textSize="35sp" />
                 <TextView
@@ -42,7 +42,7 @@
                     android:layout_margin="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/beginner3"
+                    android:text="@string/bench_dip"
                     android:textColor="@color/black"
                     android:textSize="35sp" />
                 <TextView
@@ -51,7 +51,7 @@
                     android:layout_margin="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/beginner4"
+                    android:text="@string/push_up2"
                     android:textColor="@color/black"
                     android:textSize="35sp" />
                 <TextView
@@ -60,7 +60,7 @@
                     android:layout_margin="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/beginner5"
+                     android:text="@string/triceps_stretch"
                     android:textColor="@color/black"
                     android:textSize="35sp" />
 

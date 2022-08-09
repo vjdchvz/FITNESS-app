@@ -23,6 +23,12 @@ class BicepsEx : AppCompatActivity() {
         binding = ActivityBicepsExBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
+               bicepsBeginner()
+            ).commit()
+        }
+
         binding.beginner.setOnClickListener {
 
             replaceFragment(bicepsBeginner())
