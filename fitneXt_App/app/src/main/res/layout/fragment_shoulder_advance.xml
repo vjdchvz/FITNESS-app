@@ -21,49 +21,99 @@
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/advance1"
+                    android:text="@string/handstand_press_up"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:textSize="26sp" />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
                     android:gravity="center"
-                    android:text="@string/advance2"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:text="@string/_3_sets_n_10_reps_n_1_minute_rest1"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/handstandpressup"
+                    android:background="@color/white"/>
+
+
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/advance3"
+                    android:text="@string/thruster"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:textSize="26sp" />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
                     android:gravity="center"
-                    android:text="@string/advance4"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:text="@string/_2_sets_n_10_reps_n_30_seconds_rest"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/thruster"
+                    android:background="@color/white"/>
+
+
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/advance5"
+                    android:text="@string/wall_ball"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:textSize="26sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
+                    android:gravity="center"
+                    android:text="@string/_3_sets_n_15_reps_n_30_seconds_rest2"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/wallball"
+                    android:background="@color/white"/>
+
 
 
             </LinearLayout>

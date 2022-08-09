@@ -21,6 +21,12 @@ class HamstringEx : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hamstring_ex)
 
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
+                hamstringBeginner()
+            ).commit()
+        }
+
         binding = ActivityHamstringExBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

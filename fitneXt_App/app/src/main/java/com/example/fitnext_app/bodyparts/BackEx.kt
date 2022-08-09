@@ -23,6 +23,12 @@ class BackEx : AppCompatActivity() {
         binding = ActivityBackExBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
+                backBeginner()
+            ).commit()
+        }
+
         binding.beginner.setOnClickListener {
 
             replaceFragment(backBeginner())

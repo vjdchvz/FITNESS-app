@@ -23,6 +23,12 @@ class ForeArmsEx : AppCompatActivity() {
         binding = ActivityForeArmsExBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
+                forearmsBeginner()
+            ).commit()
+        }
+
         binding.beginner.setOnClickListener {
 
             replaceFragment(forearmsBeginner())

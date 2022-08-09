@@ -23,6 +23,12 @@ class TricepsEx : AppCompatActivity() {
         binding = ActivityTricepsExBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
+                tricepsBeginner()
+            ).commit()
+        }
+
         binding.beginner.setOnClickListener {
 
             replaceFragment(tricepsBeginner())

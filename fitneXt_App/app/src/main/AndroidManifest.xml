@@ -24,11 +24,6 @@
             tools:ignore="LockedOrientationActivity"
             android:exported="false" />
         <activity
-            android:name=".bodyparts.TrapeziusEx"
-            android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"
-            android:exported="false" />
-        <activity
             android:name=".bodyparts.BicepsEx"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"

@@ -22,6 +22,12 @@ class AbsEx : AppCompatActivity() {
         binding = ActivityAbsExBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
+               absBeginner()
+            ).commit()
+        }
+
         binding.beginner.setOnClickListener {
 
             replaceFragment(absBeginner())

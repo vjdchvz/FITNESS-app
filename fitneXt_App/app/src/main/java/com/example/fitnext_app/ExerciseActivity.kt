@@ -71,13 +71,6 @@ class ExerciseActivity : AppCompatActivity() {
             val intent = Intent(this, BicepsEx::class.java)
             startActivity(intent)
         }
-        //call trapezius
-        val trape = findViewById<Button>(R.id.trap)
-        trape.setOnClickListener {
-
-            val intent = Intent(this, TrapeziusEx::class.java)
-            startActivity(intent)
-        }
         //call forearms
         val arm = findViewById<Button>(R.id.fore)
         arm.setOnClickListener {

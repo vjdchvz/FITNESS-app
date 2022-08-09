@@ -11,22 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/Diff"
-            android:layout_width="289dp"
-            android:layout_height="51dp"
-            android:layout_marginBottom="300dp"
-            android:fontFamily="@font/armata"
-            android:text="@string/select_difficulty1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
     <ImageView
         android:id="@+id/hamstringarrow"
@@ -60,6 +44,7 @@
             android:layout_height="match_parent"
             android:background="@color/black"
             android:buttonTint="#EE4B2B"
+            android:checked="true"
             android:text="@string/beginner"
             android:textColor="@color/white"
             android:textStyle="bold"
