@@ -21,50 +21,101 @@
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/advance1"
+                    android:text="@string/finger_tip_push_up"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:textSize="26sp" />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
                     android:gravity="center"
-                    android:text="@string/advance2"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
-                <TextView
+                    android:text="@string/_2_sets_n_8_reps_n_2_minute_rest"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
-                    android:gravity="center"
-                    android:text="@string/advance3"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
-                    android:gravity="center"
-                    android:text="@string/advance4"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
-                    android:gravity="center"
-                    android:text="@string/advance5"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/fingertippushup"
+                    android:background="@color/white"/>
 
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/pull_ups1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="26sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
+                    android:gravity="center"
+                    android:text="@string/_2_sets_n_10_reps_n_3_minute_rest"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/pullups"
+                    android:background="@color/white"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/crab_walk"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="26sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
+                    android:gravity="center"
+                    android:text="@string/_10_seconds_n_4_reps_n_30_second_rest"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/crabwalk"
+                    android:background="@color/white"/>
 
             </LinearLayout>
         </ScrollView>

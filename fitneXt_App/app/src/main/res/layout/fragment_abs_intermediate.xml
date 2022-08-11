@@ -21,49 +21,34 @@
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/intermediate1"
+                    android:text="@string/towel_cable_row"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:textSize="26sp" />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
                     android:gravity="center"
-                    android:text="@string/intermediate2"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
-                <TextView
+                    android:text="-3 SETS\n-10 REPS\n-1 MINUTE REST"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
-                    android:gravity="center"
-                    android:text="@string/intermediate3"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
-                    android:gravity="center"
-                    android:text="@string/intermediate4"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
-                    android:gravity="center"
-                    android:text="@string/intermediate5"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/towelcablerow"
+                    android:background="@color/white"/>
 
 
             </LinearLayout>
