@@ -3,11 +3,61 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/drawable/appbg.xml" value="0.141" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/drawable/appbg2.xml" value="0.141" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/drawable/buttonborder.xml" value="0.141" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/drawable/noedgebackground.xml" value="0.1" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/drawable/round_button.xml" value="0.141" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/drawable/round_button2.xml" value="0.1125" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_abs_ex.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_back_ex.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_biceps_ex.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_calves_ex.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_chest_ex.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_dashboard.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_exercise.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_fore_arms_ex.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_forgot_password.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_hamstring_ex.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_login2.xml" value="0.20989583333333334" />
         <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_main.xml" value="0.14855072463768115" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_main2.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_onboarding.xml" value="0.1" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_onboarding2.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_setting.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_shoulder_ex.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_sign_up.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_triceps_ex.xml" value="0.20989583333333334" />
         <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_abs_advance.xml" value="0.184375" />
         <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_abs_beginner.xml" value="0.184375" />
         <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_abs_intermediate.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_back_advance.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_back_beginner.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_back_intermediate.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_biceps_advance.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_biceps_beginner.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_biceps_intermediate.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_calves_advance.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_calves_beginner.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_calves_intermediate.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_chest_advance.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_chest_beginner.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_chest_intermediate.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_forearms_advance.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_forearms_beginner.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_forearms_intermediate.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_hamstring_advance.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_hamstring_beginner.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_hamstring_intermediate.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_shoulder_advance.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_shoulder_intermediate.xml" value="0.20989583333333334" />
         <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_shoulderbeginner.xml" value="0.184375" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_triceps_advance.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_triceps_beginner.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_triceps_intermediate.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
         <entry key="..\:/Users/vj/Desktop/fitneXt_App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.188" />
         <entry key="..\:/Users/vj/Desktop/fitneXt_App/app/src/main/res/drawable/appbg.xml" value="0.1" />
         <entry key="..\:/Users/vj/Desktop/fitneXt_App/app/src/main/res/drawable/appbg2.xml" value="0.217" />

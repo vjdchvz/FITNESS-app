@@ -13,7 +13,7 @@ class LoginActivity2 : AppCompatActivity() {
         setContentView(R.layout.activity_login2)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, HOME::class.java)
+            val intent = Intent(this, Dashboard::class.java)
             startActivity(intent)
             // to get rid of this when u push the back button
             finish()

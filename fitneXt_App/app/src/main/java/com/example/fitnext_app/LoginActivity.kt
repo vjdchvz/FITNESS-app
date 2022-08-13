@@ -27,11 +27,13 @@ class LoginActivity : AppCompatActivity() {
         binding.textView15.setOnClickListener {
             val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
+
         }
         //forgot password
         binding.textView17.setOnClickListener {
             val intent = Intent(this, ForgotPasswordActivity::class.java)
             startActivity(intent)
+           
         }
 
 
@@ -67,6 +69,7 @@ class LoginActivity : AppCompatActivity() {
     override fun onBackPressed() {
         if (backPressedTime + 2000 > System.currentTimeMillis()){
             super.onBackPressed()
+            overridePendingTransition(android.R.anim.linear_interpolator,android.R.anim.linear_interpolator)
             finishAffinity()
         }else{
             Toast.makeText(applicationContext,"Press Back Again to Exit App",Toast.LENGTH_SHORT)

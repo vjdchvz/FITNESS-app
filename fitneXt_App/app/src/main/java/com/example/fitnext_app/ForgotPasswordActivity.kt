@@ -28,6 +28,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
             //call login
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
+            overridePendingTransition(android.R.anim.slide_in_left,android.R.anim.fade_out)
         }
 
 
@@ -38,6 +39,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
                 firebaseAuth.sendPasswordResetEmail(email).addOnCompleteListener {
                     if (it.isSuccessful) {
                         Toast.makeText(this, "Email Sent!!", Toast.LENGTH_SHORT).show()
+                        overridePendingTransition(android.R.anim.cycle_interpolator,android.R.anim.fade_out)
                         finish()
                     }
                     else

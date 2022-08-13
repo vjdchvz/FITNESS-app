@@ -50,7 +50,7 @@ class Setting : AppCompatActivity() {
         val setting = findViewById<ImageView>(R.id.arrow)
         setting.setOnClickListener {
             //call home
-            val intent = Intent(this, HOME::class.java)
+            val intent = Intent(this, Dashboard::class.java)
             startActivity(intent)
         }
 
