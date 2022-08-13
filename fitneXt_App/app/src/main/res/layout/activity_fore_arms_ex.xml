@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/forearmshome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbg"
+    tools:context=".bodyparts.ForeArmsEx">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="269dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/logo1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/forearmsarrow"
+        android:layout_width="51dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_black_24" />
+
+    <RadioGroup
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="88dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RadioButton
+            android:id="@+id/beginner"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:buttonTint="#EE4B2B"
+            android:text="@string/beginner"
+            android:checked="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/intermediate"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:buttonTint="#EE4B2B"
+            android:text="@string/intermediate"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/advance"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="1dp"
+            android:background="@color/black"
+            android:buttonTint="#EE4B2B"
+            android:text="@string/advance"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.fitnext_app.bodyparts.forearmsdifficulty.forearmsBeginner"
+        android:layout_width="match_parent"
+        android:layout_height="601dp"
+        android:layout_below="@+id/select"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        tools:layout="@layout/fragment_forearms_beginner" />
+
+
+
+
+</RelativeLayout>
