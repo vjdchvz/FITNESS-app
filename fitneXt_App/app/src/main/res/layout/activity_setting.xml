@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall3"
+    android:background="@drawable/wall"
     tools:context=".Setting">
 
     <Button
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="412dp"
         android:backgroundTint="@color/buttoncolor2"
-        android:background="@color/white"
+        android:background="@drawable/round_button"
         android:text="@string/exit"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="340dp"
         android:backgroundTint="@color/buttoncolor2"
-        android:background="@color/white"
+        android:background="@drawable/round_button"
         android:text="@string/log_out"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -49,6 +49,6 @@
         app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_arrow_back_white_24" />
+        app:srcCompat="@drawable/ic_baseline_arrow_back_black_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,6 +23,7 @@ class SignUp : AppCompatActivity() {
         binding.textView16.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
+            overridePendingTransition(android.R.anim.slide_in_left,android.R.anim.fade_out)
         }
         binding.button4.setOnClickListener {
             val email = binding.u1.text.toString()
@@ -35,7 +36,9 @@ class SignUp : AppCompatActivity() {
                     firebaseAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener {
                         if (it.isSuccessful) {
                             val intent = Intent(this, LoginActivity::class.java)
+                            Toast.makeText(this, "Sign Up Successfully", Toast.LENGTH_SHORT).show()
                             startActivity(intent)
+                            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
                         } else {
                             Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
 

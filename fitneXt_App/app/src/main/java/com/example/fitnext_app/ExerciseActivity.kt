@@ -19,8 +19,9 @@ class ExerciseActivity : AppCompatActivity() {
         val setting = findViewById<ImageView>(R.id.arrow2)
         setting.setOnClickListener {
             //call home
-            val intent = Intent(this, HOME::class.java)
+            val intent = Intent(this, Dashboard::class.java)
             startActivity(intent)
+            overridePendingTransition(android.R.anim.slide_in_left,android.R.anim.fade_out)
         }
         //call hamstring
         val hams = findViewById<Button>(R.id.ham)

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/appbg2"
+    android:background="#9DCEFF"
     tools:context=".ExerciseActivity">
 
 
@@ -12,11 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="66dp"
         android:layout_marginBottom="659dp"
-        android:background="@drawable/appbg2"
+        android:background="#037CF5"
         android:gravity="center"
         android:text="@string/chose_target"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -42,6 +42,7 @@
                 android:text="@string/shoulders"
                 android:textColor="@color/black"
                 android:textSize="35sp" />
+
             <Button
                 android:id="@+id/che"
                 android:layout_width="match_parent"
@@ -62,6 +63,7 @@
                 android:textColor="@color/black"
                 android:textSize="35sp"
                 tools:ignore="DuplicateSpeakableTextCheck" />
+
             <Button
                 android:id="@+id/tri"
                 android:layout_width="match_parent"
@@ -71,6 +73,7 @@
                 android:text="@string/triceps"
                 android:textColor="@color/black"
                 android:textSize="35sp" />
+
             <Button
                 android:id="@+id/bic"
                 android:layout_width="match_parent"
@@ -80,6 +83,7 @@
                 android:text="@string/biceps"
                 android:textColor="@color/black"
                 android:textSize="35sp" />
+
             <Button
                 android:id="@+id/fore"
                 android:layout_width="match_parent"
@@ -89,6 +93,7 @@
                 android:text="@string/forearms"
                 android:textColor="@color/black"
                 android:textSize="35sp" />
+
             <Button
                 android:id="@+id/abs"
                 android:layout_width="match_parent"
@@ -98,6 +103,7 @@
                 android:text="@string/abs"
                 android:textColor="@color/black"
                 android:textSize="35sp" />
+
             <Button
                 android:id="@+id/ham"
                 android:layout_width="match_parent"
@@ -107,6 +113,7 @@
                 android:text="@string/hamstrings"
                 android:textColor="@color/black"
                 android:textSize="35sp" />
+
             <Button
                 android:id="@+id/cal"
                 android:layout_width="match_parent"
@@ -125,7 +132,7 @@
         android:layout_width="51dp"
         android:layout_height="46dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="13dp"
         android:contentDescription="@string/back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.072"
