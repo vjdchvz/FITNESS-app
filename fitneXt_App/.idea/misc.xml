@@ -3,15 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_home.xml" value="0.184375" />
         <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_main.xml" value="0.14855072463768115" />
-        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_parts.xml" value="0.184375" />
-        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/activity_splash.xml" value="0.184375" />
-        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_shoulder_advance.xml" value="0.184375" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_abs_advance.xml" value="0.184375" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_abs_beginner.xml" value="0.184375" />
+        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_abs_intermediate.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_shoulderbeginner.xml" value="0.184375" />
-        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_triceps_advance.xml" value="0.184375" />
-        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_triceps_beginner.xml" value="0.184375" />
-        <entry key="..\:/Users/vj/Desktop/FITNESS-app/fitneXt_App/app/src/main/res/layout/fragment_triceps_intermediate.xml" value="0.184375" />
         <entry key="..\:/Users/vj/Desktop/fitneXt_App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.188" />
         <entry key="..\:/Users/vj/Desktop/fitneXt_App/app/src/main/res/drawable/appbg.xml" value="0.1" />
         <entry key="..\:/Users/vj/Desktop/fitneXt_App/app/src/main/res/drawable/appbg2.xml" value="0.217" />

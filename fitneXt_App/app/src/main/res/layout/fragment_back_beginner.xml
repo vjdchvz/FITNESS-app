@@ -20,49 +20,124 @@
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/beginner11"
+                    android:text="@string/barbell_deadlifts"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:textSize="26sp" />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
                     android:gravity="center"
-                    android:text="@string/beginner2"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:text="@string/_3_sets_n_8_reps_n_1_minute_rest"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/barbelldeadlift"
+                    android:background="@color/white"/>
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/beginner3"
+                    android:text="@string/bent_over_barbell_rows"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:textSize="26sp" />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
                     android:gravity="center"
-                    android:text="@string/beginner4"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:text="@string/_2_sets_n_12_reps_n_1_minute_rest"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/bentoverbarbellrows"
+                    android:background="@color/white"/>
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/beginner5"
+                    android:text="@string/seated_cable_rows"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:textSize="26sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
+                    android:gravity="center"
+                    android:text="@string/_2_sets_n_12_reps_n_30_seconds_rest"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/seatedcablerows"
+                    android:background="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/face_pulls"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="26sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
+                    android:gravity="center"
+                    android:text="@string/_3_sets_n_15_reps_n_30_seconds_rest"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/facepulls"
+                    android:background="@color/white"/>
 
 
             </LinearLayout>

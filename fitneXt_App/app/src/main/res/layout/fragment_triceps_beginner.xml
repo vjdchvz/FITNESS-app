@@ -18,51 +18,144 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
+
+
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/seated_overhead_dumbbell_extension"
+                    android:text="@string/seated_overhead_dumbbell_triceps_extension"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:textSize="26sp" />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
                     android:gravity="center"
-                    android:text="@string/standing_triceps_kickbacks"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:text="@string/_2_sets_n_8_reps_n_30_seconds_rest"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/seatedoverheaddumbbelltricepsextension"
+                    android:background="@color/white"/>
+
+
+
+
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                    android:text="@string/bench_dip"
+                    android:text="@string/standing_triceps_kickbacks1"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:textSize="26sp" />
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
-                    android:background="@color/white"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
                     android:gravity="center"
-                    android:text="@string/push_up2"
-                    android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:text="@string/_3_sets_n_8_reps_n_30_seconds_rest"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/standingtricepskickbacks"
+                    android:background="@color/white"/>
+
+
+
+
+
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:layout_margin="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
                     android:background="@color/white"
                     android:gravity="center"
-                     android:text="@string/triceps_stretch"
+                    android:text="@string/bench_dip1"
+                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:textSize="35sp" />
+                    android:textSize="26sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
+                    android:gravity="center"
+                    android:text="@string/_3_sets_n_8_reps_n_1_minute_rest1"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/benchdip"
+                    android:background="@color/white"/>
+
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/push_up1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="26sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/buttonborder"
+                    android:gravity="center"
+                    android:text="@string/_2_sets_n_10_reps_n_30_seconds_rest1"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/pushup"
+                    android:background="@color/white"/>
+
 
 
             </LinearLayout>
